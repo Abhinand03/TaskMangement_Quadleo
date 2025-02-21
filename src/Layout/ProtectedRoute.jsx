@@ -17,9 +17,6 @@ function ProtectedRoute() {
         <Outlet />
       ) : (
         <>
-        {
-          toast.success("please")
-        }
           <Navigate to={"/login"} />
         </>
       )}
